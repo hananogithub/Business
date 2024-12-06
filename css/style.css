@@ -371,6 +371,12 @@ headerの高さが80pxあるので、100vhから80px分だけマイナスする
       #company .info {
         flex-direction: column;
       }
-      
 
+      #footer .flex{
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      #footer .flex .logo{
+        margin-bottom: 10px;
+      }
 }
