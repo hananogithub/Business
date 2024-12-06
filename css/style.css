@@ -352,4 +352,25 @@ headerの高さが80pxあるので、100vhから80px分だけマイナスする
         text-align: left;
       }
 
+      #company{
+        height: auto;
+        flex-direction: column;
+        position: static;
+      }
+      #company .text {
+        width: 100%;
+        padding: 40px 20px;
+        margin-bottom: 20px;
+        position: static;
+      }
+      #company .img {
+        width: 100%;
+        padding: 0;
+        position: static;
+      }
+      #company .info {
+        flex-direction: column;
+      }
+      
+
 }
