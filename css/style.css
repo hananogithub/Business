@@ -239,9 +239,38 @@ headerの高さが80pxあるので、100vhから80px分だけマイナスする
     margin-top: 10px;
   }
 
-  
+  #company .info dt:first-of-type {
+    margin-top: 0;
+  }
+  #company .info dd {
+    width: 80%;
+    margin-top: 10px;
+  }
+  /*
+  1つめのddにはmargin-topを設定しない
+  */
+  #company .info dd:first-of-type {
+    margin-top: 0;
+  }
+  #company .info .add {
+    margin-left: 20%;
+  }
 /* footer */
-
-
-
+#footer .copyright {
+    font-size: 0.625rem;
+  }
+  #footer .flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0;
+  }
+  #footer .flex .logo {
+    margin-right: 0;
+  }
+  #footer {
+    background-color: #fff;
+    padding-bottom: 20px;
+  }
+  
 /* SP */
