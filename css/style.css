@@ -295,8 +295,25 @@ headerの高さが80pxあるので、100vhから80px分だけマイナスする
     }
 
     #mainvisual{
-        
+        margin-bottom: 80px;
+    }
+    #news{
+        margin-bottom: 80px;
     }
 
+    #news .list{
+        flex-direction: column;
+    }
+    #news .list li{
+        width: 100%;
+        border-right: : none;
+        padding: 10px 0;
+        margin-bottom: 0;
+    }
+    #news .list li:last-child{
+        margin-bottom: 0;
+    }
+
+    #about
 
 }
