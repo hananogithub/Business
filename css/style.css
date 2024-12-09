@@ -8,6 +8,10 @@ body {
   color: #000;
   font-size: 0.875rem;
 }
+nav {
+  display: block;
+  unicode-bidi: isolate;
+}
 a {
   color: #000;
   font-size: 0.875rem;
@@ -22,7 +26,7 @@ li{
 }
 
 .logo{
-    width: 100%;
+    width: 100px;
     line-height: 1px;
     margin-right: 60px;
 }
@@ -31,7 +35,7 @@ li{
 }
 .section-title{
     font-weight: normal;
-    line-height: 1px;
+    line-height: 1;
     margin-bottom: 50px;
 }
 /*疑似要素を使って下線を引く*/
@@ -46,13 +50,13 @@ li{
 改行されてmargin-bottomが使用できるようになる*/
 .section-title .en{
     display: block;
-    font-size: 2.25em;
+    font-size: 2.25rem;
     letter-spacing: 0.3em;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 .section-title .ja{
     display: block;
-    font-size: 0.875em;
+    font-size: 0.875rem;
     margin-bottom: 36px;
 }
 /*横幅設定*/
@@ -126,7 +130,6 @@ headerの高さが80pxあるので、100vhから80px分だけマイナスする
     padding-left: 0;
   }
   #news .list li:last-child {
-    border-right: none;
     padding-right: 0;
   }
   #news .list li .date-area {
@@ -282,7 +285,7 @@ headerの高さが80pxあるので、100vhから80px分だけマイナスする
     .section-title{
         margin-bottom: 34px;
     }
-    .section-title .jp{
+    .section-title .ja{
         margin-bottom: 24px
     }
 
