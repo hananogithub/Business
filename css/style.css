@@ -98,6 +98,23 @@ li{
      display: inline-block;
      text-align: center;
 }
+#header nav ul {
+  display: flex; 
+  gap: 20px; 
+  list-style: none; 
+  padding: 0; 
+  margin: 0; 
+}
+
+#header nav ul li {
+  margin: 0; /* 余計なマージンを削除 */
+}
+
+#header nav ul li a {
+  text-decoration: none; /* 下線を削除 */
+  color: #000; /* テキスト色を設定 */
+}
+
 
 /* mainvisual */
 #mainvisual{
@@ -350,36 +367,52 @@ headerの高さが80pxあるので、100vhから80px分だけマイナスする
     #business .flex .item {
         text-align: center;
         margin-bottom: 30px;
-      }
+    }
       #business .flex .title {
         text-align: left;
-      }
+    }
 
-      #company{
+    #company{
         height: auto;
         flex-direction: column;
         position: static;
-      }
-      #company .text {
+    }
+    #company .text {
         width: 100%;
         padding: 40px 20px;
         margin-bottom: 20px;
         position: static;
-      }
-      #company .img {
+    }
+    #company .img {
         width: 100%;
         padding: 0;
         position: static;
-      }
-      #company .info {
+    }
+    #company .info {
         flex-direction: column;
-      }
+    }
 
-      #footer .flex{
+    #company .info dt{
+     width: 100%;
+     margin-top: 20px;
+    }
+    #company .info dd{
+      width: 100%;
+      margin-top: 5px;
+      padding-left: 14px;
+    }
+    #company .info dd:first-of-type{
+      margin-top: 5px;
+    }
+    #company .info .add{
+      margin-left: 0;
+    }
+
+    #footer .flex{
         flex-direction: column;
         align-items: flex-start;
-      }
-      #footer .flex .logo{
+    }
+    #footer .flex .logo{
         margin-bottom: 10px;
-      }
+    }
 }
